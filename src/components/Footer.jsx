@@ -1,7 +1,6 @@
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { BsEnvelopeFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
