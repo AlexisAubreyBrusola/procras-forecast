@@ -9,9 +9,16 @@ const Footer = () => {
       <nav className="flex flex-col space-x justify-between px-3.5 py-5 gap-y-5 tablet:flex-row">
         <div className="flex flex-col gap-y-2">
           <span className="text-base">Made with</span>
-          <a href="" className="hover:text-hoverColor">
-            <div className="flex gap-x-1">
-              <div>OWM</div>
+          <a
+            href="https://openweathermap.org/"
+            className="hover:text-hoverColor"
+          >
+            <div className="flex gap-x-1 items-center">
+              <img
+                src="/openweathermap-logo.png"
+                alt="openweathermap-logo"
+                className="h-[25px] w-[25px]"
+              />
               <span>openweathermap.org</span>
             </div>
           </a>
@@ -20,24 +27,19 @@ const Footer = () => {
         <div className="flex flex-col gap-y-2">
           <span className="text-base">{"Developer's Social"}</span>
           <div className="flex gap-x-3 tablet:justify-between">
-            <a href="">
+            <a href="https://www.facebook.com/alexisaubrey.brusola">
               <div>
                 <FaFacebook className="text-[28px] hover:text-hoverColor" />
               </div>
             </a>
-            <a href="">
+            <a href="https://github.com/AlexisAubreyBrusola">
               <div>
                 <FaGithub className="text-[28px] hover:text-hoverColor" />
               </div>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/alexis-aubrey-brusola-8b3135266/">
               <div>
                 <FaLinkedin className="text-[28px] hover:text-hoverColor" />
-              </div>
-            </a>
-            <a href="">
-              <div>
-                <BsEnvelopeFill className="text-[28px] hover:text-hoverColor" />
               </div>
             </a>
           </div>
