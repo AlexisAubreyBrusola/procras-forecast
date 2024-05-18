@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import { fetchData } from "../utils/fetchData";
 import { useState, useEffect, createContext } from "react";
 import { helix } from "ldrs";
 import axios from "axios";
