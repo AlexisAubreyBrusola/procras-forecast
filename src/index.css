@@ -1,0 +1,39 @@
+@import "@fontsource/poppins"; /* 100,200,300,400,500,600,700,800,900 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply px-3.5 py-2.5 rounded-md font-semibold;
+  }
+
+  .main-container {
+    @apply px-[16px] flex flex-col items-center gap-y-8 py-6;
+  }
+
+  .btn-secondary {
+    @apply rounded-md hover:bg-hoverColor;
+  }
+
+  .component-container {
+    @apply flex flex-col gap-[48px] bg-mainBlue px-[20px] py-[24px] rounded-xl tablet:flex-row tablet:min-w-[860px] tablet:justify-between tablet:px-[36px] tablet:py-[36px];
+  }
+
+  .details-value {
+    @apply font-semibold tracking-wider;
+  }
+
+  .icons {
+    @apply bg-center bg-cover;
+  }
+}
+
+body {
+  background-color: #1e2144;
+  color: #e9eaee;
+  font-family: "Poppins", sans-serif;
+}
