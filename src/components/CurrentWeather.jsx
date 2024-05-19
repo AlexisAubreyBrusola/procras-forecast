@@ -25,9 +25,9 @@ const CurrentWeather = ({ currentWeather }) => {
               getCurrentDate().year
             }`}
           </span>
-          <div className="temp-group flex gap-5 content-center">
+          <div className="temp-group flex gap-5 content-center phone:flex-col">
             <div
-              className="icons min-w-[115px] h-auto"
+              className="icons min-w-[90px] h-auto"
               style={{
                 backgroundImage: `url('https://openweathermap.org/img/wn/${currentWeather?.weather[0].icon}@4x.png')`,
               }}
