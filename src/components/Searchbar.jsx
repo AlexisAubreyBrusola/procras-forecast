@@ -35,7 +35,7 @@ const Searchbar = ({ setIsEmpty, isEmpty }) => {
             type="text"
             name="city"
             placeholder="Enter your City"
-            className="focus:outline-none bg-transparent w-full pl-1 py-2"
+            className="focus:outline-none bg-transparent w-full pl-1 py-2 autofill:bg-transparent"
             onChange={handleInputChange}
           />
         </div>
