@@ -17,7 +17,7 @@ const Homepage = () => {
               ProcrasForecast
             </h1>
             <p className="font-roboto max-w-[460px]">
-              a simple weather app for lazy people who just wants to know the
+              a simple weather app for lazy people who just want to know the
               weather
             </p>
           </div>
