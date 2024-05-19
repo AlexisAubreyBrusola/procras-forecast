@@ -32,7 +32,7 @@ const CurrentWeather = ({ currentWeather }) => {
                 backgroundImage: `url('https://openweathermap.org/img/wn/${currentWeather?.weather[0].icon}@4x.png')`,
               }}
             ></div>
-            <span className="temp-text text-[54px] font-semibold tracking-wider">
+            <span className="temp-text text-[3rem] font-semibold tracking-wider">
               {tempConverter(Math.round(currentWeather?.main.temp), toggled)}°{" "}
               {toggled ? "F" : "C"}
             </span>
